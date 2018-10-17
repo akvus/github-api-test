@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyGithub</string>
+    <string name="last_commit_date">Last commit\'s date:</string>
+</resources>
