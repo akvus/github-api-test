@@ -1,4 +1,4 @@
-package com.waysnpaths
+package com.waysnpaths.mygithub
 
 import android.app.Application
 import com.raizlabs.android.dbflow.config.FlowConfig
