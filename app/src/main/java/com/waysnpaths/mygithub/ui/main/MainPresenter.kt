@@ -26,7 +26,7 @@ class MainPresenter(
 
     private fun getRepositories() {
         displayRepositories(getRepositoriesFromDb())
-        GetStringRequestAsyncTask(networking, this::onRepositoriesJsonReceived, this::onError)
+        GetStringRequestAsyncTask(networking, ::onRepositoriesJsonReceived, ::onError)
                 .execute("${baseUrl}users/akvus/repos")
     }
 
@@ -41,7 +41,7 @@ class MainPresenter(
 
     private fun onRepositoriesJsonReceived(jsonString: String) {
         try {
-            this.repositories = reposJsonParser.parse(jsonString)
+            repositories = reposJsonParser.parse(jsonString)
             storeRepositories(repositories)
             displayRepositories(repositories)
             getCommitsData(repositories)
