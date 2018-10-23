@@ -1,17 +1,24 @@
 package com.waysnpaths.mygithub.ui.main
 
+import android.os.Handler
+import android.os.Looper
 import android.util.Log
 import com.waysnpaths.mygithub.domain.model.Commit
 import com.waysnpaths.mygithub.domain.model.Repository
 import com.waysnpaths.mygithub.domain.repository.GitHubRepository
 import com.waysnpaths.mygithub.dummyMvp.MvpPresenter
+import java.io.IOException
+import java.util.concurrent.Executors
+
 
 class MainPresenter(
         // todo abstract repositories to use cases with executors (ThreatPool etc)
         private val liveGitHubRepository: GitHubRepository,
         private val cacheGitHubRepository: GitHubRepository
 ) : MvpPresenter<MainView>() {
-    var repositories: List<Repository> = listOf()
+    private var repositories: List<Repository> = listOf()
+    private val threadPool = Executors.newCachedThreadPool()!!
+    private var mainHandler = Handler(Looper.getMainLooper())
 
     override fun onAttachView(view: MainView) {
         getRepositories()
@@ -19,8 +26,18 @@ class MainPresenter(
 
     private fun getRepositories() {
         displayRepositories(getRepositoriesFromDb())
-        GetStringRequestAsyncTask({ liveGitHubRepository.getRepositories("akvus") }, ::onRepositoriesJsonReceived, ::onError)
-                .execute()
+        threadPool.submit {
+            try {
+                val data  = liveGitHubRepository.getRepositories("akvus")
+                mainHandler.post {
+                    onRepositoriesJsonReceived(data)
+                }
+            } catch (e: IOException) {
+                mainHandler.post {
+                    onError(e)
+                }
+            }
+        }
     }
 
     private fun displayRepositories(repositories: List<Repository>) {
@@ -50,10 +67,18 @@ class MainPresenter(
 
     private fun getCommitsData(repositories: List<Repository>) {
         for (repository in repositories) {
-            GetStringRequestAsyncTask({ liveGitHubRepository.getCommits("akvus", repository.name) }, {
-                onCommitJsonReceived(it, repository.id)
-            }, this::onError)
-                    .execute()
+            threadPool.submit {
+                try {
+                    val data  = liveGitHubRepository.getCommits("akvus", repository.name)
+                    mainHandler.post {
+                        onCommitJsonReceived(data, repository.id)
+                    }
+                } catch (e: IOException) {
+                    mainHandler.post {
+                        onError(e)
+                    }
+                }
+            }
         }
     }
 

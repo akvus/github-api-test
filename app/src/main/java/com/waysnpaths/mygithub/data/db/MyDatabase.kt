@@ -4,5 +4,4 @@ import com.raizlabs.android.dbflow.annotation.Database
 
 
 @Database(name = "MyDataBase", version = 1)
-class MyDatabase {
-}
+class MyDatabase

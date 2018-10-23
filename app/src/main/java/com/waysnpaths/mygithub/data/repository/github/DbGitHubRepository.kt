@@ -1,6 +1,8 @@
 package com.waysnpaths.mygithub.data.repository.github
 
+import com.raizlabs.android.dbflow.config.FlowManager
 import com.raizlabs.android.dbflow.sql.language.SQLite
+import com.waysnpaths.mygithub.data.db.MyDatabase
 import com.waysnpaths.mygithub.data.db.RepositoryDbMapper
 import com.waysnpaths.mygithub.data.db.RepositoryDbModel
 import com.waysnpaths.mygithub.domain.model.Commit

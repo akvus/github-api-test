@@ -22,9 +22,9 @@ class RepositoryDbMapper : ModelMapper<RepositoryDbModel, Repository> {
         }
     }
 
-    override fun mapList(repositoriesFromDb: List<RepositoryDbModel>): MutableList<Repository> {
+    override fun mapList(from: List<RepositoryDbModel>): MutableList<Repository> {
         val listOfRepositories = mutableListOf<Repository>()
-        for (repositoryFromDb in repositoriesFromDb) {
+        for (repositoryFromDb in from) {
             listOfRepositories.add(map(repositoryFromDb))
         }
         return listOfRepositories
