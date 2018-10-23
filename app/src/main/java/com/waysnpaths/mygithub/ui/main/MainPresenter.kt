@@ -26,6 +26,23 @@ class MainPresenter(
 
     private fun getRepositories() {
         getRepositoriesFromDb(::displayRepositories)
+        getRepositoriesFromNetwork()
+    }
+
+    private fun getRepositoriesFromDb(onRetrieved: (repositories: List<Repository>) -> Unit) {
+        threadPool.submit {
+            val repositories = cacheGitHubRepository.getRepositories("akvus")
+            mainHandler.post {
+                onRetrieved(repositories)
+            }
+        }
+    }
+
+    private fun displayRepositories(repositories: List<Repository>) {
+        view?.setRepositories(repositories.sortedBy { it.name })
+    }
+
+    private fun getRepositoriesFromNetwork() {
         threadPool.submit {
             try {
                 val data = liveGitHubRepository.getRepositories("akvus")
@@ -36,19 +53,6 @@ class MainPresenter(
                 mainHandler.post {
                     onError(e)
                 }
-            }
-        }
-    }
-
-    private fun displayRepositories(repositories: List<Repository>) {
-        view?.setRepositories(repositories.sortedBy { it.name })
-    }
-
-    private fun getRepositoriesFromDb(onRetrieved: (repositories: List<Repository>) -> Unit) {
-        threadPool.submit {
-            val repositories = cacheGitHubRepository.getRepositories("akvus")
-            mainHandler.post {
-                onRetrieved(repositories)
             }
         }
     }
