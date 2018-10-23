@@ -1,0 +1,1499 @@
+[
+  {
+    "sha": "2d14dc043ec66c97b07a07c3ca0c0f00da3258ac",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6MmQxNGRjMDQzZWM2NmM5N2IwN2EwN2MzY2EwYzBmMDBkYTMyNThhYw==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2017-01-15T22:37:43Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-01-15T22:37:43Z"
+      },
+      "message": "Update README.MD",
+      "tree": {
+        "sha": "708acbd37362bc74995066816b80866bbd85267b",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/708acbd37362bc74995066816b80866bbd85267b"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/2d14dc043ec66c97b07a07c3ca0c0f00da3258ac",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/2d14dc043ec66c97b07a07c3ca0c0f00da3258ac",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/2d14dc043ec66c97b07a07c3ca0c0f00da3258ac",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/2d14dc043ec66c97b07a07c3ca0c0f00da3258ac/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8c2e4b484a4f1d451cc72c908b8bd08e4008b040",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/8c2e4b484a4f1d451cc72c908b8bd08e4008b040",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/8c2e4b484a4f1d451cc72c908b8bd08e4008b040"
+      }
+    ]
+  },
+  {
+    "sha": "8c2e4b484a4f1d451cc72c908b8bd08e4008b040",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6OGMyZTRiNDg0YTRmMWQ0NTFjYzcyYzkwOGI4YmQwOGU0MDA4YjA0MA==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-30T12:42:41Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-30T12:42:41Z"
+      },
+      "message": "Removing rectangles, polylines and markers on destroy.",
+      "tree": {
+        "sha": "5d9b62976a84680ec212b4ca1b4e79e373ce86c1",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/5d9b62976a84680ec212b4ca1b4e79e373ce86c1"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/8c2e4b484a4f1d451cc72c908b8bd08e4008b040",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/8c2e4b484a4f1d451cc72c908b8bd08e4008b040",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/8c2e4b484a4f1d451cc72c908b8bd08e4008b040",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/8c2e4b484a4f1d451cc72c908b8bd08e4008b040/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "204ca63c828423f2cfa32a90f00953405e029868",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/204ca63c828423f2cfa32a90f00953405e029868",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/204ca63c828423f2cfa32a90f00953405e029868"
+      }
+    ]
+  },
+  {
+    "sha": "204ca63c828423f2cfa32a90f00953405e029868",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6MjA0Y2E2M2M4Mjg0MjNmMmNmYTMyYTkwZjAwOTUzNDA1ZTAyOTg2OA==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-15T18:59:09Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-15T18:59:09Z"
+      },
+      "message": "Google var declated.",
+      "tree": {
+        "sha": "1100b4ff412a73c22f2afaadcd685ef5486328d0",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/1100b4ff412a73c22f2afaadcd685ef5486328d0"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/204ca63c828423f2cfa32a90f00953405e029868",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/204ca63c828423f2cfa32a90f00953405e029868",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/204ca63c828423f2cfa32a90f00953405e029868",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/204ca63c828423f2cfa32a90f00953405e029868/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7ebe3306e56e00a3a1e6e288d7d15ebfd3568c7c",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/7ebe3306e56e00a3a1e6e288d7d15ebfd3568c7c",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/7ebe3306e56e00a3a1e6e288d7d15ebfd3568c7c"
+      }
+    ]
+  },
+  {
+    "sha": "7ebe3306e56e00a3a1e6e288d7d15ebfd3568c7c",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6N2ViZTMzMDZlNTZlMDBhM2ExZTZlMjg4ZDdkMTVlYmZkMzU2OGM3Yw==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-15T05:54:58Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-15T05:54:58Z"
+      },
+      "message": "Updated to Angular2 final.",
+      "tree": {
+        "sha": "376b6ccd367f91669b160ac0fc6321894e23d36d",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/376b6ccd367f91669b160ac0fc6321894e23d36d"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/7ebe3306e56e00a3a1e6e288d7d15ebfd3568c7c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/7ebe3306e56e00a3a1e6e288d7d15ebfd3568c7c",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/7ebe3306e56e00a3a1e6e288d7d15ebfd3568c7c",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/7ebe3306e56e00a3a1e6e288d7d15ebfd3568c7c/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "609e90f65885c5461138f078c354216dc2b90fb9",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/609e90f65885c5461138f078c354216dc2b90fb9",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/609e90f65885c5461138f078c354216dc2b90fb9"
+      }
+    ]
+  },
+  {
+    "sha": "609e90f65885c5461138f078c354216dc2b90fb9",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6NjA5ZTkwZjY1ODg1YzU0NjExMzhmMDc4YzM1NDIxNmRjMmI5MGZiOQ==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-09T20:57:13Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-09T20:57:13Z"
+      },
+      "message": "Setting stroke color for polyline done.",
+      "tree": {
+        "sha": "c1fd6156e30b1bfd2414a68f64cd5631058a7140",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/c1fd6156e30b1bfd2414a68f64cd5631058a7140"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/609e90f65885c5461138f078c354216dc2b90fb9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/609e90f65885c5461138f078c354216dc2b90fb9",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/609e90f65885c5461138f078c354216dc2b90fb9",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/609e90f65885c5461138f078c354216dc2b90fb9/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f1f45a9f0b0041640e2bda4fe62e10a1353a9e63",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/f1f45a9f0b0041640e2bda4fe62e10a1353a9e63",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/f1f45a9f0b0041640e2bda4fe62e10a1353a9e63"
+      }
+    ]
+  },
+  {
+    "sha": "f1f45a9f0b0041640e2bda4fe62e10a1353a9e63",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6ZjFmNDVhOWYwYjAwNDE2NDBlMmJkYTRmZTYyZTEwYTEzNTNhOWU2Mw==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-09T19:04:14Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-09T19:04:14Z"
+      },
+      "message": "Map height doesn't have to be set explicitly.",
+      "tree": {
+        "sha": "34ddc317583299fbadcb006e8f42cdf567dd7b78",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/34ddc317583299fbadcb006e8f42cdf567dd7b78"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/f1f45a9f0b0041640e2bda4fe62e10a1353a9e63",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/f1f45a9f0b0041640e2bda4fe62e10a1353a9e63",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/f1f45a9f0b0041640e2bda4fe62e10a1353a9e63",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/f1f45a9f0b0041640e2bda4fe62e10a1353a9e63/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dedd16569ec708dfbdeb55c2c057b732e79cfe81",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/dedd16569ec708dfbdeb55c2c057b732e79cfe81",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/dedd16569ec708dfbdeb55c2c057b732e79cfe81"
+      }
+    ]
+  },
+  {
+    "sha": "dedd16569ec708dfbdeb55c2c057b732e79cfe81",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6ZGVkZDE2NTY5ZWM3MDhkZmJkZWI1NWMyYzA1N2I3MzJlNzljZmU4MQ==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-09T18:40:43Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-09T18:40:43Z"
+      },
+      "message": "Custom classes can be now specified for google map element.",
+      "tree": {
+        "sha": "379fba8418ebebaced72162e1c831fe0e60abdc6",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/379fba8418ebebaced72162e1c831fe0e60abdc6"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/dedd16569ec708dfbdeb55c2c057b732e79cfe81",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/dedd16569ec708dfbdeb55c2c057b732e79cfe81",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/dedd16569ec708dfbdeb55c2c057b732e79cfe81",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/dedd16569ec708dfbdeb55c2c057b732e79cfe81/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f4780dab74736d7525364979704a1faa4a391b4e",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/f4780dab74736d7525364979704a1faa4a391b4e",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/f4780dab74736d7525364979704a1faa4a391b4e"
+      }
+    ]
+  },
+  {
+    "sha": "f4780dab74736d7525364979704a1faa4a391b4e",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6ZjQ3ODBkYWI3NDczNmQ3NTI1MzY0OTc5NzA0YTFmYWE0YTM5MWI0ZQ==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-07T22:34:03Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-07T22:34:03Z"
+      },
+      "message": "Console logs deleted.",
+      "tree": {
+        "sha": "95fdf9b5ee9caa55f4f2b0067dbad9ddc352aab3",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/95fdf9b5ee9caa55f4f2b0067dbad9ddc352aab3"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/f4780dab74736d7525364979704a1faa4a391b4e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/f4780dab74736d7525364979704a1faa4a391b4e",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/f4780dab74736d7525364979704a1faa4a391b4e",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/f4780dab74736d7525364979704a1faa4a391b4e/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0365f701e07591321e1e7f79e6dc71a0ce9fdd7b",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/0365f701e07591321e1e7f79e6dc71a0ce9fdd7b",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/0365f701e07591321e1e7f79e6dc71a0ce9fdd7b"
+      }
+    ]
+  },
+  {
+    "sha": "0365f701e07591321e1e7f79e6dc71a0ce9fdd7b",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6MDM2NWY3MDFlMDc1OTEzMjFlMWU3Zjc5ZTZkYzcxYTBjZTlmZGQ3Yg==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-07T21:45:51Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-07T21:45:51Z"
+      },
+      "message": "Project configuration updated.",
+      "tree": {
+        "sha": "d2b0d33000e5bb7dfedb2440822e807b429e09e8",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/d2b0d33000e5bb7dfedb2440822e807b429e09e8"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/0365f701e07591321e1e7f79e6dc71a0ce9fdd7b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/0365f701e07591321e1e7f79e6dc71a0ce9fdd7b",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/0365f701e07591321e1e7f79e6dc71a0ce9fdd7b",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/0365f701e07591321e1e7f79e6dc71a0ce9fdd7b/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "704744508bc077748e0d053976c5aaf33df20e78",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/704744508bc077748e0d053976c5aaf33df20e78",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/704744508bc077748e0d053976c5aaf33df20e78"
+      }
+    ]
+  },
+  {
+    "sha": "704744508bc077748e0d053976c5aaf33df20e78",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6NzA0NzQ0NTA4YmMwNzc3NDhlMGQwNTM5NzZjNWFhZjMzZGYyMGU3OA==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-07T20:17:00Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-07T20:17:00Z"
+      },
+      "message": "README.MD updated.",
+      "tree": {
+        "sha": "a47d9d9534171c3736d33cc26aec68b9237c2c91",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/a47d9d9534171c3736d33cc26aec68b9237c2c91"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/704744508bc077748e0d053976c5aaf33df20e78",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/704744508bc077748e0d053976c5aaf33df20e78",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/704744508bc077748e0d053976c5aaf33df20e78",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/704744508bc077748e0d053976c5aaf33df20e78/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a12adabecb5a39e04d439c94c7ce1352c058c64b",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/a12adabecb5a39e04d439c94c7ce1352c058c64b",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/a12adabecb5a39e04d439c94c7ce1352c058c64b"
+      }
+    ]
+  },
+  {
+    "sha": "a12adabecb5a39e04d439c94c7ce1352c058c64b",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6YTEyYWRhYmVjYjVhMzllMDRkNDM5Yzk0YzdjZTEzNTJjMDU4YzY0Yg==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-07T20:16:42Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-07T20:16:42Z"
+      },
+      "message": "Triple slash references removed.",
+      "tree": {
+        "sha": "3f9408c7954c50dc05e7670f95e009db8716eec5",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/3f9408c7954c50dc05e7670f95e009db8716eec5"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/a12adabecb5a39e04d439c94c7ce1352c058c64b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/a12adabecb5a39e04d439c94c7ce1352c058c64b",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/a12adabecb5a39e04d439c94c7ce1352c058c64b",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/a12adabecb5a39e04d439c94c7ce1352c058c64b/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c4a57fdfc7a806b0b599740bcc5c54857214d719",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/c4a57fdfc7a806b0b599740bcc5c54857214d719",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/c4a57fdfc7a806b0b599740bcc5c54857214d719"
+      }
+    ]
+  },
+  {
+    "sha": "c4a57fdfc7a806b0b599740bcc5c54857214d719",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6YzRhNTdmZGZjN2E4MDZiMGI1OTk3NDBiY2M1YzU0ODU3MjE0ZDcxOQ==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-07T20:02:35Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-07T20:02:35Z"
+      },
+      "message": "Webpack example app added.",
+      "tree": {
+        "sha": "fc891654970451a7c33e55700205c49a8e70e8b3",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/fc891654970451a7c33e55700205c49a8e70e8b3"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/c4a57fdfc7a806b0b599740bcc5c54857214d719",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/c4a57fdfc7a806b0b599740bcc5c54857214d719",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/c4a57fdfc7a806b0b599740bcc5c54857214d719",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/c4a57fdfc7a806b0b599740bcc5c54857214d719/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "82f02d74003b703ebed1e981fc92cc81672137af",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/82f02d74003b703ebed1e981fc92cc81672137af",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/82f02d74003b703ebed1e981fc92cc81672137af"
+      }
+    ]
+  },
+  {
+    "sha": "82f02d74003b703ebed1e981fc92cc81672137af",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6ODJmMDJkNzQwMDNiNzAzZWJlZDFlOTgxZmM5MmNjODE2NzIxMzdhZg==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-07T19:17:07Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-09-07T19:17:07Z"
+      },
+      "message": "Any types declaration added when required.",
+      "tree": {
+        "sha": "b0f193a296bd33df6bf299778e39b7c66fa70b7b",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/b0f193a296bd33df6bf299778e39b7c66fa70b7b"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/82f02d74003b703ebed1e981fc92cc81672137af",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/82f02d74003b703ebed1e981fc92cc81672137af",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/82f02d74003b703ebed1e981fc92cc81672137af",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/82f02d74003b703ebed1e981fc92cc81672137af/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "66dd8e171725da5cbb4d2fd48abfae0aabba9352",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/66dd8e171725da5cbb4d2fd48abfae0aabba9352",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/66dd8e171725da5cbb4d2fd48abfae0aabba9352"
+      }
+    ]
+  },
+  {
+    "sha": "66dd8e171725da5cbb4d2fd48abfae0aabba9352",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6NjZkZDhlMTcxNzI1ZGE1Y2JiNGQyZmQ0OGFiZmFlMGFhYmJhOTM1Mg==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-08-18T10:09:48Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-08-18T10:09:48Z"
+      },
+      "message": "GitIgnore updated.",
+      "tree": {
+        "sha": "5ccba7713705bc188a17377e71488a46787f50fa",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/5ccba7713705bc188a17377e71488a46787f50fa"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/66dd8e171725da5cbb4d2fd48abfae0aabba9352",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/66dd8e171725da5cbb4d2fd48abfae0aabba9352",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/66dd8e171725da5cbb4d2fd48abfae0aabba9352",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/66dd8e171725da5cbb4d2fd48abfae0aabba9352/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d4a602a4273abf6814994cca365b4506cb0ee510",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/d4a602a4273abf6814994cca365b4506cb0ee510",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/d4a602a4273abf6814994cca365b4506cb0ee510"
+      }
+    ]
+  },
+  {
+    "sha": "d4a602a4273abf6814994cca365b4506cb0ee510",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6ZDRhNjAyYTQyNzNhYmY2ODE0OTk0Y2NhMzY1YjQ1MDZjYjBlZTUxMA==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-08-18T10:05:26Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-08-18T10:05:26Z"
+      },
+      "message": "Update README.md.",
+      "tree": {
+        "sha": "e401c988f3224c890217f0a063370e73a0e92002",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/e401c988f3224c890217f0a063370e73a0e92002"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/d4a602a4273abf6814994cca365b4506cb0ee510",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/d4a602a4273abf6814994cca365b4506cb0ee510",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/d4a602a4273abf6814994cca365b4506cb0ee510",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/d4a602a4273abf6814994cca365b4506cb0ee510/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7b5da47fc3d4f4d4f4c3bdb0bc56b23672cb0804",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/7b5da47fc3d4f4d4f4c3bdb0bc56b23672cb0804",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/7b5da47fc3d4f4d4f4c3bdb0bc56b23672cb0804"
+      }
+    ]
+  },
+  {
+    "sha": "7b5da47fc3d4f4d4f4c3bdb0bc56b23672cb0804",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6N2I1ZGE0N2ZjM2Q0ZjRkNGY0YzNiZGIwYmM1NmIyMzY3MmNiMDgwNA==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-08-18T09:57:32Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-08-18T09:57:32Z"
+      },
+      "message": "v 0.0.11 working test version of the library.",
+      "tree": {
+        "sha": "fd6225b8d348a155f0f8e4e526b9260d36ae4936",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/fd6225b8d348a155f0f8e4e526b9260d36ae4936"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/7b5da47fc3d4f4d4f4c3bdb0bc56b23672cb0804",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/7b5da47fc3d4f4d4f4c3bdb0bc56b23672cb0804",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/7b5da47fc3d4f4d4f4c3bdb0bc56b23672cb0804",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/7b5da47fc3d4f4d4f4c3bdb0bc56b23672cb0804/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d606ae3895810ccb137581127a25420783b4292d",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/d606ae3895810ccb137581127a25420783b4292d",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/d606ae3895810ccb137581127a25420783b4292d"
+      }
+    ]
+  },
+  {
+    "sha": "d606ae3895810ccb137581127a25420783b4292d",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6ZDYwNmFlMzg5NTgxMGNjYjEzNzU4MTEyN2EyNTQyMDc4M2I0MjkyZA==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-08-18T09:29:44Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-08-18T09:29:44Z"
+      },
+      "message": "Update package.json.",
+      "tree": {
+        "sha": "41c109890fa3abbef6d102d32b4b17a1938a2fad",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/41c109890fa3abbef6d102d32b4b17a1938a2fad"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/d606ae3895810ccb137581127a25420783b4292d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/d606ae3895810ccb137581127a25420783b4292d",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/d606ae3895810ccb137581127a25420783b4292d",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/d606ae3895810ccb137581127a25420783b4292d/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "532ee9e77711f9c36c68f9d1e6845ac33a33139f",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/532ee9e77711f9c36c68f9d1e6845ac33a33139f",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/532ee9e77711f9c36c68f9d1e6845ac33a33139f"
+      }
+    ]
+  },
+  {
+    "sha": "532ee9e77711f9c36c68f9d1e6845ac33a33139f",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6NTMyZWU5ZTc3NzExZjljMzZjNjhmOWQxZTY4NDVhYzMzYTMzMTM5Zg==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-08-18T08:52:30Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-08-18T08:52:30Z"
+      },
+      "message": "Fixing 404 errors.",
+      "tree": {
+        "sha": "1a12b5767a24c1f7b69163fad04477be1ec82e28",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/1a12b5767a24c1f7b69163fad04477be1ec82e28"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/532ee9e77711f9c36c68f9d1e6845ac33a33139f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/532ee9e77711f9c36c68f9d1e6845ac33a33139f",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/532ee9e77711f9c36c68f9d1e6845ac33a33139f",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/532ee9e77711f9c36c68f9d1e6845ac33a33139f/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e83ae56be606528e73fa7a116a1d2015df23ffd6",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/e83ae56be606528e73fa7a116a1d2015df23ffd6",
+        "html_url": "https://github.com/akvus/ng2-goo-maps/commit/e83ae56be606528e73fa7a116a1d2015df23ffd6"
+      }
+    ]
+  },
+  {
+    "sha": "e83ae56be606528e73fa7a116a1d2015df23ffd6",
+    "node_id": "MDY6Q29tbWl0NjU5NzU4ODg6ZTgzYWU1NmJlNjA2NTI4ZTczZmE3YTExNmExZDIwMTVkZjIzZmZkNg==",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-08-18T08:25:01Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2016-08-18T08:25:01Z"
+      },
+      "message": "Initial commit.",
+      "tree": {
+        "sha": "d647081e02a9ba0abd5f9a2814a91c98908dfa7d",
+        "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/trees/d647081e02a9ba0abd5f9a2814a91c98908dfa7d"
+      },
+      "url": "https://api.github.com/repos/akvus/ng2-goo-maps/git/commits/e83ae56be606528e73fa7a116a1d2015df23ffd6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/e83ae56be606528e73fa7a116a1d2015df23ffd6",
+    "html_url": "https://github.com/akvus/ng2-goo-maps/commit/e83ae56be606528e73fa7a116a1d2015df23ffd6",
+    "comments_url": "https://api.github.com/repos/akvus/ng2-goo-maps/commits/e83ae56be606528e73fa7a116a1d2015df23ffd6/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+
+    ]
+  }
+]

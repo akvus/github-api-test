@@ -9,7 +9,8 @@ class RepositoryDbMapper : ModelMapper<RepositoryDbModel, Repository> {
         return Repository(
                 from.id,
                 from.name ?: "",
-                from.description ?: ""
+                from.description ?: "",
+                listOf()
         )
     }
 

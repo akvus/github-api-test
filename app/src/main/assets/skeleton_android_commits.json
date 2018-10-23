@@ -1,0 +1,2382 @@
+[
+  {
+    "sha": "d421add8259564ad927dff3034580da9261041e5",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmQ0MjFhZGQ4MjU5NTY0YWQ5MjdkZmYzMDM0NTgwZGE5MjYxMDQxZTU=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T21:47:02Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T21:47:02Z"
+      },
+      "message": "Removed gradle/ from repo.",
+      "tree": {
+        "sha": "5040785ff1810bae61cf2276518a825f4f4d4ce2",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/5040785ff1810bae61cf2276518a825f4f4d4ce2"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/d421add8259564ad927dff3034580da9261041e5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/d421add8259564ad927dff3034580da9261041e5",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/d421add8259564ad927dff3034580da9261041e5",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/d421add8259564ad927dff3034580da9261041e5/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "559f97048cdef2e4a1a04e9afa0d79f3407fefa1",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/559f97048cdef2e4a1a04e9afa0d79f3407fefa1",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/559f97048cdef2e4a1a04e9afa0d79f3407fefa1"
+      }
+    ]
+  },
+  {
+    "sha": "559f97048cdef2e4a1a04e9afa0d79f3407fefa1",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OjU1OWY5NzA0OGNkZWYyZTRhMWEwNGU5YWZhMGQ3OWYzNDA3ZmVmYTE=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T21:39:52Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T21:39:52Z"
+      },
+      "message": ".idea deleted from repo.",
+      "tree": {
+        "sha": "d567fcb43a0ac00edc779960e30a79e4b078523d",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/d567fcb43a0ac00edc779960e30a79e4b078523d"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/559f97048cdef2e4a1a04e9afa0d79f3407fefa1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/559f97048cdef2e4a1a04e9afa0d79f3407fefa1",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/559f97048cdef2e4a1a04e9afa0d79f3407fefa1",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/559f97048cdef2e4a1a04e9afa0d79f3407fefa1/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ba9074955e018acd15e3edab5a207e502694f741",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/ba9074955e018acd15e3edab5a207e502694f741",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/ba9074955e018acd15e3edab5a207e502694f741"
+      }
+    ]
+  },
+  {
+    "sha": "ba9074955e018acd15e3edab5a207e502694f741",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmJhOTA3NDk1NWUwMThhY2QxNWUzZWRhYjVhMjA3ZTUwMjY5NGY3NDE=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T21:36:52Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T21:36:52Z"
+      },
+      "message": "Merge branch 'master' of https://github.com/akvus/skeleton-android",
+      "tree": {
+        "sha": "82935e106e509a89a10aedbd39f61c8c73c7ad74",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/82935e106e509a89a10aedbd39f61c8c73c7ad74"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/ba9074955e018acd15e3edab5a207e502694f741",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/ba9074955e018acd15e3edab5a207e502694f741",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/ba9074955e018acd15e3edab5a207e502694f741",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/ba9074955e018acd15e3edab5a207e502694f741/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4e7c2e77e1ae178df8c776858b3f60955c4be381",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/4e7c2e77e1ae178df8c776858b3f60955c4be381",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/4e7c2e77e1ae178df8c776858b3f60955c4be381"
+      },
+      {
+        "sha": "02353cabbc9e5ea4cd84abd911df58cac26cd667",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/02353cabbc9e5ea4cd84abd911df58cac26cd667",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/02353cabbc9e5ea4cd84abd911df58cac26cd667"
+      }
+    ]
+  },
+  {
+    "sha": "4e7c2e77e1ae178df8c776858b3f60955c4be381",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OjRlN2MyZTc3ZTFhZTE3OGRmOGM3NzY4NThiM2Y2MDk1NWM0YmUzODE=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T21:36:45Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T21:36:45Z"
+      },
+      "message": "Build.gradle modified.",
+      "tree": {
+        "sha": "a9dfe7d6a1bd94d6c7a7a4ac36c774f3422a5d77",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/a9dfe7d6a1bd94d6c7a7a4ac36c774f3422a5d77"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/4e7c2e77e1ae178df8c776858b3f60955c4be381",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/4e7c2e77e1ae178df8c776858b3f60955c4be381",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/4e7c2e77e1ae178df8c776858b3f60955c4be381",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/4e7c2e77e1ae178df8c776858b3f60955c4be381/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "560cc6b7602af122ebe0991176e083c5fe8c1052",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/560cc6b7602af122ebe0991176e083c5fe8c1052",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/560cc6b7602af122ebe0991176e083c5fe8c1052"
+      }
+    ]
+  },
+  {
+    "sha": "02353cabbc9e5ea4cd84abd911df58cac26cd667",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OjAyMzUzY2FiYmM5ZTVlYTRjZDg0YWJkOTExZGY1OGNhYzI2Y2Q2Njc=",
+    "commit": {
+      "author": {
+        "name": "akvus",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T11:12:40Z"
+      },
+      "committer": {
+        "name": "akvus",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T11:12:40Z"
+      },
+      "message": "MainViewState unit tested.",
+      "tree": {
+        "sha": "c0b048d504192ff3da44da32c7f83401c52f5e72",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/c0b048d504192ff3da44da32c7f83401c52f5e72"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/02353cabbc9e5ea4cd84abd911df58cac26cd667",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/02353cabbc9e5ea4cd84abd911df58cac26cd667",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/02353cabbc9e5ea4cd84abd911df58cac26cd667",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/02353cabbc9e5ea4cd84abd911df58cac26cd667/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0de0fb082dd055eba79221b08dd1ab1bf8e1787e",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/0de0fb082dd055eba79221b08dd1ab1bf8e1787e",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/0de0fb082dd055eba79221b08dd1ab1bf8e1787e"
+      }
+    ]
+  },
+  {
+    "sha": "0de0fb082dd055eba79221b08dd1ab1bf8e1787e",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OjBkZTBmYjA4MmRkMDU1ZWJhNzkyMjFiMDhkZDFhYjFiZjhlMTc4N2U=",
+    "commit": {
+      "author": {
+        "name": "akvus",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T11:07:08Z"
+      },
+      "committer": {
+        "name": "akvus",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T11:07:08Z"
+      },
+      "message": "Accessing/saving a boolean in Preferences added",
+      "tree": {
+        "sha": "ce446192700170a9ac48e3420cdf0e291b3196ff",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/ce446192700170a9ac48e3420cdf0e291b3196ff"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/0de0fb082dd055eba79221b08dd1ab1bf8e1787e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/0de0fb082dd055eba79221b08dd1ab1bf8e1787e",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/0de0fb082dd055eba79221b08dd1ab1bf8e1787e",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/0de0fb082dd055eba79221b08dd1ab1bf8e1787e/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6538a8212e72fb7b7a9df65b187553000222a862",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/6538a8212e72fb7b7a9df65b187553000222a862",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/6538a8212e72fb7b7a9df65b187553000222a862"
+      }
+    ]
+  },
+  {
+    "sha": "6538a8212e72fb7b7a9df65b187553000222a862",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OjY1MzhhODIxMmU3MmZiN2I3YTlkZjY1YjE4NzU1MzAwMDIyMmE4NjI=",
+    "commit": {
+      "author": {
+        "name": "akvus",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T11:03:04Z"
+      },
+      "committer": {
+        "name": "akvus",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T11:03:04Z"
+      },
+      "message": "Ktx used for SharedPreferences.",
+      "tree": {
+        "sha": "10d9b8096d059395a018a954b52fde21aa6bb987",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/10d9b8096d059395a018a954b52fde21aa6bb987"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/6538a8212e72fb7b7a9df65b187553000222a862",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/6538a8212e72fb7b7a9df65b187553000222a862",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/6538a8212e72fb7b7a9df65b187553000222a862",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/6538a8212e72fb7b7a9df65b187553000222a862/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f560aec75f11491789db940c7b24caf255c72555",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/f560aec75f11491789db940c7b24caf255c72555",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/f560aec75f11491789db940c7b24caf255c72555"
+      }
+    ]
+  },
+  {
+    "sha": "f560aec75f11491789db940c7b24caf255c72555",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmY1NjBhZWM3NWYxMTQ5MTc4OWRiOTQwYzdiMjRjYWYyNTVjNzI1NTU=",
+    "commit": {
+      "author": {
+        "name": "Akvus",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T10:53:40Z"
+      },
+      "committer": {
+        "name": "Akvus",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-15T10:53:40Z"
+      },
+      "message": "MyPreferences unit tested.",
+      "tree": {
+        "sha": "651f0a3612d074c0d6f19994429ec66bd9e74a12",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/651f0a3612d074c0d6f19994429ec66bd9e74a12"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/f560aec75f11491789db940c7b24caf255c72555",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/f560aec75f11491789db940c7b24caf255c72555",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/f560aec75f11491789db940c7b24caf255c72555",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/f560aec75f11491789db940c7b24caf255c72555/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "560cc6b7602af122ebe0991176e083c5fe8c1052",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/560cc6b7602af122ebe0991176e083c5fe8c1052",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/560cc6b7602af122ebe0991176e083c5fe8c1052"
+      }
+    ]
+  },
+  {
+    "sha": "560cc6b7602af122ebe0991176e083c5fe8c1052",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OjU2MGNjNmI3NjAyYWYxMjJlYmUwOTkxMTc2ZTA4M2M1ZmU4YzEwNTI=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-03T22:29:38Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-03T22:29:38Z"
+      },
+      "message": "Method to generate random iv added.",
+      "tree": {
+        "sha": "87b6ae76866099b630d37db5b8b1b55e184ceded",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/87b6ae76866099b630d37db5b8b1b55e184ceded"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/560cc6b7602af122ebe0991176e083c5fe8c1052",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/560cc6b7602af122ebe0991176e083c5fe8c1052",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/560cc6b7602af122ebe0991176e083c5fe8c1052",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/560cc6b7602af122ebe0991176e083c5fe8c1052/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3751f531b4ac21708b028fc98d0ae843751c9695",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/3751f531b4ac21708b028fc98d0ae843751c9695",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/3751f531b4ac21708b028fc98d0ae843751c9695"
+      }
+    ]
+  },
+  {
+    "sha": "3751f531b4ac21708b028fc98d0ae843751c9695",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OjM3NTFmNTMxYjRhYzIxNzA4YjAyOGZjOThkMGFlODQzNzUxYzk2OTU=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-03T22:12:21Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-03T22:12:21Z"
+      },
+      "message": "AesCipher tested.",
+      "tree": {
+        "sha": "11c3a709620d4c8df3265d58aa0e2350b15bb71c",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/11c3a709620d4c8df3265d58aa0e2350b15bb71c"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/3751f531b4ac21708b028fc98d0ae843751c9695",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/3751f531b4ac21708b028fc98d0ae843751c9695",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/3751f531b4ac21708b028fc98d0ae843751c9695",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/3751f531b4ac21708b028fc98d0ae843751c9695/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e231a586ba6b7d0dcddbb950fba8cb34f301bddb",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/e231a586ba6b7d0dcddbb950fba8cb34f301bddb",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/e231a586ba6b7d0dcddbb950fba8cb34f301bddb"
+      }
+    ]
+  },
+  {
+    "sha": "e231a586ba6b7d0dcddbb950fba8cb34f301bddb",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmUyMzFhNTg2YmE2YjdkMGRjZGRiYjk1MGZiYThjYjM0ZjMwMWJkZGI=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-03T21:37:27Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-03T21:37:27Z"
+      },
+      "message": "AesCipher added.",
+      "tree": {
+        "sha": "10811b9fe193e9a34b743fa76dac839882963556",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/10811b9fe193e9a34b743fa76dac839882963556"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/e231a586ba6b7d0dcddbb950fba8cb34f301bddb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/e231a586ba6b7d0dcddbb950fba8cb34f301bddb",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/e231a586ba6b7d0dcddbb950fba8cb34f301bddb",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/e231a586ba6b7d0dcddbb950fba8cb34f301bddb/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d20b2f1f330c0b261d4c4f70d89eb95d7633dba6",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/d20b2f1f330c0b261d4c4f70d89eb95d7633dba6",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/d20b2f1f330c0b261d4c4f70d89eb95d7633dba6"
+      }
+    ]
+  },
+  {
+    "sha": "d20b2f1f330c0b261d4c4f70d89eb95d7633dba6",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmQyMGIyZjFmMzMwYzBiMjYxZDRjNGY3MGQ4OWViOTVkNzYzM2RiYTY=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-03T19:49:52Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-03T19:49:52Z"
+      },
+      "message": "Preventing keyboard form appearing on start.",
+      "tree": {
+        "sha": "c479e4a954de23c8c924b0bd96adc952e3bebbf2",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/c479e4a954de23c8c924b0bd96adc952e3bebbf2"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/d20b2f1f330c0b261d4c4f70d89eb95d7633dba6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/d20b2f1f330c0b261d4c4f70d89eb95d7633dba6",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/d20b2f1f330c0b261d4c4f70d89eb95d7633dba6",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/d20b2f1f330c0b261d4c4f70d89eb95d7633dba6/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0f0c84567c8282b42692215519e5980c036f0b05",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/0f0c84567c8282b42692215519e5980c036f0b05",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/0f0c84567c8282b42692215519e5980c036f0b05"
+      }
+    ]
+  },
+  {
+    "sha": "0f0c84567c8282b42692215519e5980c036f0b05",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OjBmMGM4NDU2N2M4MjgyYjQyNjkyMjE1NTE5ZTU5ODBjMDM2ZjBiMDU=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-03T19:43:31Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-03T19:43:31Z"
+      },
+      "message": "Scrolling to the newest message.",
+      "tree": {
+        "sha": "596c57e9266318c3ddf66dc9b04b3f9483efe2f2",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/596c57e9266318c3ddf66dc9b04b3f9483efe2f2"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/0f0c84567c8282b42692215519e5980c036f0b05",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/0f0c84567c8282b42692215519e5980c036f0b05",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/0f0c84567c8282b42692215519e5980c036f0b05",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/0f0c84567c8282b42692215519e5980c036f0b05/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "865c08b1d04cc561d72c88b8bc22a97dee9a0299",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/865c08b1d04cc561d72c88b8bc22a97dee9a0299",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/865c08b1d04cc561d72c88b8bc22a97dee9a0299"
+      }
+    ]
+  },
+  {
+    "sha": "865c08b1d04cc561d72c88b8bc22a97dee9a0299",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4Ojg2NWMwOGIxZDA0Y2M1NjFkNzJjODhiOGJjMjJhOTdkZWU5YTAyOTk=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-03T19:19:17Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-03-03T19:19:17Z"
+      },
+      "message": "Handling timestamp/date.",
+      "tree": {
+        "sha": "c13942ef109b3b79c179b2a0c94dde012fcd1083",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/c13942ef109b3b79c179b2a0c94dde012fcd1083"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/865c08b1d04cc561d72c88b8bc22a97dee9a0299",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/865c08b1d04cc561d72c88b8bc22a97dee9a0299",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/865c08b1d04cc561d72c88b8bc22a97dee9a0299",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/865c08b1d04cc561d72c88b8bc22a97dee9a0299/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ba191425453c24a868ecb0a9d6dad3800fad5dc0",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/ba191425453c24a868ecb0a9d6dad3800fad5dc0",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/ba191425453c24a868ecb0a9d6dad3800fad5dc0"
+      }
+    ]
+  },
+  {
+    "sha": "ba191425453c24a868ecb0a9d6dad3800fad5dc0",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmJhMTkxNDI1NDUzYzI0YTg2OGVjYjBhOWQ2ZGFkMzgwMGZhZDVkYzA=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-25T21:40:32Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-25T21:40:32Z"
+      },
+      "message": "Api calls updated due to sample server implementation",
+      "tree": {
+        "sha": "795048c185060fb67cceb15b89cd1b82547702c6",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/795048c185060fb67cceb15b89cd1b82547702c6"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/ba191425453c24a868ecb0a9d6dad3800fad5dc0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/ba191425453c24a868ecb0a9d6dad3800fad5dc0",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/ba191425453c24a868ecb0a9d6dad3800fad5dc0",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/ba191425453c24a868ecb0a9d6dad3800fad5dc0/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6d95844789aa3552afbb5c9e83e1c2551777b850",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/6d95844789aa3552afbb5c9e83e1c2551777b850",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/6d95844789aa3552afbb5c9e83e1c2551777b850"
+      }
+    ]
+  },
+  {
+    "sha": "6d95844789aa3552afbb5c9e83e1c2551777b850",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OjZkOTU4NDQ3ODlhYTM1NTJhZmJiNWM5ZTgzZTFjMjU1MTc3N2I4NTA=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-25T21:26:41Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-25T21:26:41Z"
+      },
+      "message": "Token preference added.",
+      "tree": {
+        "sha": "2e0d4c97a77010c7ab580196ff30c4fbe020fb2e",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/2e0d4c97a77010c7ab580196ff30c4fbe020fb2e"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/6d95844789aa3552afbb5c9e83e1c2551777b850",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/6d95844789aa3552afbb5c9e83e1c2551777b850",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/6d95844789aa3552afbb5c9e83e1c2551777b850",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/6d95844789aa3552afbb5c9e83e1c2551777b850/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c1d7d109448c8fbe2ab690ae4c684bc8146a87b8",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/c1d7d109448c8fbe2ab690ae4c684bc8146a87b8",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/c1d7d109448c8fbe2ab690ae4c684bc8146a87b8"
+      }
+    ]
+  },
+  {
+    "sha": "c1d7d109448c8fbe2ab690ae4c684bc8146a87b8",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmMxZDdkMTA5NDQ4YzhmYmUyYWI2OTBhZTRjNjg0YmM4MTQ2YTg3Yjg=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-25T21:18:07Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-25T21:18:07Z"
+      },
+      "message": "Reduntant exit deleted.",
+      "tree": {
+        "sha": "91bb20b1c8d4fa5b0c3b31cade0934d60d99113c",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/91bb20b1c8d4fa5b0c3b31cade0934d60d99113c"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/c1d7d109448c8fbe2ab690ae4c684bc8146a87b8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/c1d7d109448c8fbe2ab690ae4c684bc8146a87b8",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/c1d7d109448c8fbe2ab690ae4c684bc8146a87b8",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/c1d7d109448c8fbe2ab690ae4c684bc8146a87b8/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f95361a4d17caaf79e595e0f1478143f248362a5",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/f95361a4d17caaf79e595e0f1478143f248362a5",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/f95361a4d17caaf79e595e0f1478143f248362a5"
+      }
+    ]
+  },
+  {
+    "sha": "f95361a4d17caaf79e595e0f1478143f248362a5",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmY5NTM2MWE0ZDE3Y2FhZjc5ZTU5NWUwZjE0NzgxNDNmMjQ4MzYyYTU=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-25T21:13:03Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-25T21:13:03Z"
+      },
+      "message": "Php server sample added.",
+      "tree": {
+        "sha": "8d7211c2b242abff0bec185572de5ff4e29c3906",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/8d7211c2b242abff0bec185572de5ff4e29c3906"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/f95361a4d17caaf79e595e0f1478143f248362a5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/f95361a4d17caaf79e595e0f1478143f248362a5",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/f95361a4d17caaf79e595e0f1478143f248362a5",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/f95361a4d17caaf79e595e0f1478143f248362a5/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c4b695e2d03e591b6991ac26e0d6abcc17e7c77b",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/c4b695e2d03e591b6991ac26e0d6abcc17e7c77b",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/c4b695e2d03e591b6991ac26e0d6abcc17e7c77b"
+      }
+    ]
+  },
+  {
+    "sha": "c4b695e2d03e591b6991ac26e0d6abcc17e7c77b",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmM0YjY5NWUyZDAzZTU5MWI2OTkxYWMyNmUwZDZhYmNjMTdlN2M3N2I=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-25T10:40:54Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-25T10:40:54Z"
+      },
+      "message": "Improvements. Settings validated.",
+      "tree": {
+        "sha": "9b78b3361c5dafa85cfec30f3f00f92516ccaf65",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/9b78b3361c5dafa85cfec30f3f00f92516ccaf65"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/c4b695e2d03e591b6991ac26e0d6abcc17e7c77b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/c4b695e2d03e591b6991ac26e0d6abcc17e7c77b",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/c4b695e2d03e591b6991ac26e0d6abcc17e7c77b",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/c4b695e2d03e591b6991ac26e0d6abcc17e7c77b/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4a91588e35dd3230e89cab4d5344cf53dd021958",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/4a91588e35dd3230e89cab4d5344cf53dd021958",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/4a91588e35dd3230e89cab4d5344cf53dd021958"
+      }
+    ]
+  },
+  {
+    "sha": "4a91588e35dd3230e89cab4d5344cf53dd021958",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OjRhOTE1ODhlMzVkZDMyMzBlODljYWI0ZDUzNDRjZjUzZGQwMjE5NTg=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-25T09:43:50Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-25T09:43:50Z"
+      },
+      "message": "Preferences applied.",
+      "tree": {
+        "sha": "c1e3c9d5bb531ff5bce60171d19d9d93654437a6",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/c1e3c9d5bb531ff5bce60171d19d9d93654437a6"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/4a91588e35dd3230e89cab4d5344cf53dd021958",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/4a91588e35dd3230e89cab4d5344cf53dd021958",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/4a91588e35dd3230e89cab4d5344cf53dd021958",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/4a91588e35dd3230e89cab4d5344cf53dd021958/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "caf2f9d5bd1546172223c6a64390c8976e0718f3",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/caf2f9d5bd1546172223c6a64390c8976e0718f3",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/caf2f9d5bd1546172223c6a64390c8976e0718f3"
+      }
+    ]
+  },
+  {
+    "sha": "caf2f9d5bd1546172223c6a64390c8976e0718f3",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmNhZjJmOWQ1YmQxNTQ2MTcyMjIzYzZhNjQzOTBjODk3NmUwNzE4ZjM=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-24T09:06:53Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-24T09:06:53Z"
+      },
+      "message": "ApiClient extended with direct access to the OkHttpClient.",
+      "tree": {
+        "sha": "d32d27223e221c7f4ccd6d43197564128134fd23",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/d32d27223e221c7f4ccd6d43197564128134fd23"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/caf2f9d5bd1546172223c6a64390c8976e0718f3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/caf2f9d5bd1546172223c6a64390c8976e0718f3",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/caf2f9d5bd1546172223c6a64390c8976e0718f3",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/caf2f9d5bd1546172223c6a64390c8976e0718f3/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c92391c426b1437826bdc8d165dc7269edb8e815",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/c92391c426b1437826bdc8d165dc7269edb8e815",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/c92391c426b1437826bdc8d165dc7269edb8e815"
+      }
+    ]
+  },
+  {
+    "sha": "c92391c426b1437826bdc8d165dc7269edb8e815",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmM5MjM5MWM0MjZiMTQzNzgyNmJkYzhkMTY1ZGM3MjY5ZWRiOGU4MTU=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-21T18:27:26Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-21T18:27:26Z"
+      },
+      "message": "Strings renamed.",
+      "tree": {
+        "sha": "d48b3d62f9f0a704465b33923dae0728fc334d13",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/d48b3d62f9f0a704465b33923dae0728fc334d13"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/c92391c426b1437826bdc8d165dc7269edb8e815",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/c92391c426b1437826bdc8d165dc7269edb8e815",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/c92391c426b1437826bdc8d165dc7269edb8e815",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/c92391c426b1437826bdc8d165dc7269edb8e815/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2e0c20cd6a78357075c7ccdb9c1822de050b79d4",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/2e0c20cd6a78357075c7ccdb9c1822de050b79d4",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/2e0c20cd6a78357075c7ccdb9c1822de050b79d4"
+      }
+    ]
+  },
+  {
+    "sha": "2e0c20cd6a78357075c7ccdb9c1822de050b79d4",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OjJlMGMyMGNkNmE3ODM1NzA3NWM3Y2NkYjljMTgyMmRlMDUwYjc5ZDQ=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T20:02:30Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T20:02:30Z"
+      },
+      "message": "Nick renamed to nickname.",
+      "tree": {
+        "sha": "42833b13b6656291be75bfe9da404c405791b9eb",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/42833b13b6656291be75bfe9da404c405791b9eb"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/2e0c20cd6a78357075c7ccdb9c1822de050b79d4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/2e0c20cd6a78357075c7ccdb9c1822de050b79d4",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/2e0c20cd6a78357075c7ccdb9c1822de050b79d4",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/2e0c20cd6a78357075c7ccdb9c1822de050b79d4/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "61536ea10e917a3ad2dc24505887a3f25491d0ae",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/61536ea10e917a3ad2dc24505887a3f25491d0ae",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/61536ea10e917a3ad2dc24505887a3f25491d0ae"
+      }
+    ]
+  },
+  {
+    "sha": "61536ea10e917a3ad2dc24505887a3f25491d0ae",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OjYxNTM2ZWExMGU5MTdhM2FkMmRjMjQ1MDU4ODdhM2YyNTQ5MWQwYWU=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T20:01:45Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T20:01:45Z"
+      },
+      "message": "Preferences implemented.",
+      "tree": {
+        "sha": "38c85bee6da6046427a2dc2b62ea68ab7e6015af",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/38c85bee6da6046427a2dc2b62ea68ab7e6015af"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/61536ea10e917a3ad2dc24505887a3f25491d0ae",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/61536ea10e917a3ad2dc24505887a3f25491d0ae",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/61536ea10e917a3ad2dc24505887a3f25491d0ae",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/61536ea10e917a3ad2dc24505887a3f25491d0ae/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eba3fe8a1a2687ed4f16d98444088a2c3f25a511",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/eba3fe8a1a2687ed4f16d98444088a2c3f25a511",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/eba3fe8a1a2687ed4f16d98444088a2c3f25a511"
+      }
+    ]
+  },
+  {
+    "sha": "eba3fe8a1a2687ed4f16d98444088a2c3f25a511",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmViYTNmZThhMWEyNjg3ZWQ0ZjE2ZDk4NDQ0MDg4YTJjM2YyNWE1MTE=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T19:54:10Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T19:54:10Z"
+      },
+      "message": "Edv prefix renamed to My.",
+      "tree": {
+        "sha": "4f78616db9397414a5186801205131e48031d913",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/4f78616db9397414a5186801205131e48031d913"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/eba3fe8a1a2687ed4f16d98444088a2c3f25a511",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/eba3fe8a1a2687ed4f16d98444088a2c3f25a511",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/eba3fe8a1a2687ed4f16d98444088a2c3f25a511",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/eba3fe8a1a2687ed4f16d98444088a2c3f25a511/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f9d54a34c8a12b9323dae0661ac1cc32a6a001ba",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/f9d54a34c8a12b9323dae0661ac1cc32a6a001ba",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/f9d54a34c8a12b9323dae0661ac1cc32a6a001ba"
+      }
+    ]
+  },
+  {
+    "sha": "f9d54a34c8a12b9323dae0661ac1cc32a6a001ba",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmY5ZDU0YTM0YzhhMTJiOTMyM2RhZTA2NjFhYzFjYzMyYTZhMDAxYmE=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T19:53:36Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T19:53:36Z"
+      },
+      "message": "MyPreferences tool added.",
+      "tree": {
+        "sha": "9b2c7a5b2e52e9e7f919de95d308c77f668d86cf",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/9b2c7a5b2e52e9e7f919de95d308c77f668d86cf"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/f9d54a34c8a12b9323dae0661ac1cc32a6a001ba",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/f9d54a34c8a12b9323dae0661ac1cc32a6a001ba",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/f9d54a34c8a12b9323dae0661ac1cc32a6a001ba",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/f9d54a34c8a12b9323dae0661ac1cc32a6a001ba/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "08dbad330311985105816223d0c35ba360151b07",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/08dbad330311985105816223d0c35ba360151b07",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/08dbad330311985105816223d0c35ba360151b07"
+      }
+    ]
+  },
+  {
+    "sha": "08dbad330311985105816223d0c35ba360151b07",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OjA4ZGJhZDMzMDMxMTk4NTEwNTgxNjIyM2QwYzM1YmEzNjAxNTFiMDc=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T19:46:11Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T19:46:11Z"
+      },
+      "message": "Simple preferences screen.",
+      "tree": {
+        "sha": "e2a29df49817d07d48173dbb8212794e72b30b2b",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/e2a29df49817d07d48173dbb8212794e72b30b2b"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/08dbad330311985105816223d0c35ba360151b07",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/08dbad330311985105816223d0c35ba360151b07",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/08dbad330311985105816223d0c35ba360151b07",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/08dbad330311985105816223d0c35ba360151b07/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cb7a61a65dd530dbacf05cfe24cda57193319b4c",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/cb7a61a65dd530dbacf05cfe24cda57193319b4c",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/cb7a61a65dd530dbacf05cfe24cda57193319b4c"
+      }
+    ]
+  },
+  {
+    "sha": "cb7a61a65dd530dbacf05cfe24cda57193319b4c",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmNiN2E2MWE2NWRkNTMwZGJhY2YwNWNmZTI0Y2RhNTcxOTMzMTliNGM=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T18:41:29Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T18:41:29Z"
+      },
+      "message": "Proguard rules added.",
+      "tree": {
+        "sha": "85f99e6b6b519b7f423b7b7cee648ad139fc9a67",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/85f99e6b6b519b7f423b7b7cee648ad139fc9a67"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/cb7a61a65dd530dbacf05cfe24cda57193319b4c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/cb7a61a65dd530dbacf05cfe24cda57193319b4c",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/cb7a61a65dd530dbacf05cfe24cda57193319b4c",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/cb7a61a65dd530dbacf05cfe24cda57193319b4c/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ef20eb9baceeb4898b0986bcc88622995eeac8fb",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/ef20eb9baceeb4898b0986bcc88622995eeac8fb",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/ef20eb9baceeb4898b0986bcc88622995eeac8fb"
+      }
+    ]
+  },
+  {
+    "sha": "ef20eb9baceeb4898b0986bcc88622995eeac8fb",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OmVmMjBlYjliYWNlZWI0ODk4YjA5ODZiY2M4ODYyMjk5NWVlYWM4ZmI=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T18:12:54Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T18:12:54Z"
+      },
+      "message": "Merge branch 'master' of https://github.com/akvus/skeleton-android",
+      "tree": {
+        "sha": "2d3213d3e8cd58b88925c8fed7df7cb277a7a15b",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/2d3213d3e8cd58b88925c8fed7df7cb277a7a15b"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/ef20eb9baceeb4898b0986bcc88622995eeac8fb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/ef20eb9baceeb4898b0986bcc88622995eeac8fb",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/ef20eb9baceeb4898b0986bcc88622995eeac8fb",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/ef20eb9baceeb4898b0986bcc88622995eeac8fb/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "203323feb995a5f81fd8e79202b00f7f686659f6",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/203323feb995a5f81fd8e79202b00f7f686659f6",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/203323feb995a5f81fd8e79202b00f7f686659f6"
+      },
+      {
+        "sha": "6e11fab93b9cc8a1090be69b6dd9d6d80d0ee9db",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/6e11fab93b9cc8a1090be69b6dd9d6d80d0ee9db",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/6e11fab93b9cc8a1090be69b6dd9d6d80d0ee9db"
+      }
+    ]
+  },
+  {
+    "sha": "203323feb995a5f81fd8e79202b00f7f686659f6",
+    "node_id": "MDY6Q29tbWl0MTIxODY1ODE4OjIwMzMyM2ZlYjk5NWE1ZjgxZmQ4ZTc5MjAyYjAwZjdmNjg2NjU5ZjY=",
+    "commit": {
+      "author": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T18:12:18Z"
+      },
+      "committer": {
+        "name": "Maciej Zawieja",
+        "email": "mr.akvus@gmail.com",
+        "date": "2018-02-20T18:12:18Z"
+      },
+      "message": "Gradle prepared for multi-module projects.",
+      "tree": {
+        "sha": "c76891636cbe1a88fac6a390544acf02750bb133",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/git/trees/c76891636cbe1a88fac6a390544acf02750bb133"
+      },
+      "url": "https://api.github.com/repos/akvus/skeleton-android/git/commits/203323feb995a5f81fd8e79202b00f7f686659f6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/akvus/skeleton-android/commits/203323feb995a5f81fd8e79202b00f7f686659f6",
+    "html_url": "https://github.com/akvus/skeleton-android/commit/203323feb995a5f81fd8e79202b00f7f686659f6",
+    "comments_url": "https://api.github.com/repos/akvus/skeleton-android/commits/203323feb995a5f81fd8e79202b00f7f686659f6/comments",
+    "author": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akvus",
+      "id": 5365174,
+      "node_id": "MDQ6VXNlcjUzNjUxNzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365174?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akvus",
+      "html_url": "https://github.com/akvus",
+      "followers_url": "https://api.github.com/users/akvus/followers",
+      "following_url": "https://api.github.com/users/akvus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akvus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akvus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akvus/subscriptions",
+      "organizations_url": "https://api.github.com/users/akvus/orgs",
+      "repos_url": "https://api.github.com/users/akvus/repos",
+      "events_url": "https://api.github.com/users/akvus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akvus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "964689e87795a7cc958c37c10b900907e0224ada",
+        "url": "https://api.github.com/repos/akvus/skeleton-android/commits/964689e87795a7cc958c37c10b900907e0224ada",
+        "html_url": "https://github.com/akvus/skeleton-android/commit/964689e87795a7cc958c37c10b900907e0224ada"
+      }
+    ]
+  }
+]

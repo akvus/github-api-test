@@ -4,21 +4,19 @@ import android.os.AsyncTask
 import com.waysnpaths.mygithub.data.networking.Networking
 import java.io.IOException
 
-
-// I'd be much more comfortable with RxJava instead, I forgetting how to use AsyncTasks :)
 class GetStringRequestAsyncTask(
         private val networking: Networking,
         private val onSuccess: (result: String) -> Unit,
-        private val onError: (error: Throwable) -> Unit // todo
+        private val onError: (error: Throwable) -> Unit
 ) : AsyncTask<String, Any, String>() {
 
     override fun doInBackground(vararg params: String): String {
-        try {
-            return networking.get(params[0])
+        return try {
+            Thread.sleep(500)
+            networking.get(params[0])
         } catch (e: IOException) {
-            // todo handle, notify user etc
-            // todo API rate limit exceeded etc
-            return "[]"
+            onError(e)
+            "[]"
         }
     }
 

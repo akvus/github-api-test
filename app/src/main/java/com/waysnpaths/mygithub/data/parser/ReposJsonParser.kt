@@ -24,7 +24,8 @@ class ReposJsonParser : JsonParser<List<Repository>> {
         return Repository(
                 repoJsonObject.getLong("id"), // keys should be const
                 repoJsonObject.getString("name"),
-                repoJsonObject.getString("description")
+                repoJsonObject.getString("description"),
+                listOf()
         )
     }
 }
