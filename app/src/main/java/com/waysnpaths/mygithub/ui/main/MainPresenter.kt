@@ -11,8 +11,6 @@ import com.waysnpaths.mygithub.domain.model.Repository
 import com.waysnpaths.mygithub.dummyMvp.MvpPresenter
 import org.json.JSONException
 
-
-// deps should be injected
 class MainPresenter(
         private val networking: Networking,
         private val reposJsonParser: ReposJsonParser,
@@ -48,7 +46,7 @@ class MainPresenter(
             displayRepositories(repositories)
             getCommitsData(repositories)
         } catch (e: JSONException) {
-            // todo notify user
+            onError(e)
         }
     }
 
@@ -88,6 +86,6 @@ class MainPresenter(
 
     companion object {
         private val TAG = MainPresenter.javaClass.simpleName
-        private const val baseUrl = "https://api.github.com/" // todo that shouldn't be here, as well as the calls
+        private const val baseUrl = "https://api.github.com/"
     }
 }
