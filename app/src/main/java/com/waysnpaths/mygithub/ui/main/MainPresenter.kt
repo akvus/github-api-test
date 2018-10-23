@@ -82,7 +82,7 @@ class MainPresenter(
     }
 
     private fun onError(throwable: Throwable) {
-        // todo notify user etc., maybe retry (that could be implemented within a repository pattern)
+        view?.displayError(throwable.message)
         Log.e(TAG, throwable.message, throwable)
     }
 

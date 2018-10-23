@@ -2,6 +2,7 @@ package com.waysnpaths.mygithub.ui.main
 
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
+import android.widget.Toast
 import com.waysnpaths.mygithub.R
 import com.waysnpaths.mygithub.domain.model.Repository
 import com.waysnpaths.mygithub.dummyDi.DummyDiModule
@@ -32,5 +33,9 @@ class MainActivity : MvpActivity<MainPresenter, MainView>(), MainView {
 
     override fun setRepositories(repositories: List<Repository>) {
         reposAdapter?.submitList(repositories)
+    }
+
+    override fun displayError(message: String?) {
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 }
