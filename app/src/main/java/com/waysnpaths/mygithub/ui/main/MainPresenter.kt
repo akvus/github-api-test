@@ -1,23 +1,16 @@
 package com.waysnpaths.mygithub.ui.main
 
 import android.util.Log
-import com.raizlabs.android.dbflow.sql.language.SQLite
-import com.waysnpaths.mygithub.data.db.RepositoryDbMapper
-import com.waysnpaths.mygithub.data.db.RepositoryDbModel
-import com.waysnpaths.mygithub.data.networking.Networking
-import com.waysnpaths.mygithub.data.parser.CommitJsonParser
-import com.waysnpaths.mygithub.data.parser.ReposJsonParser
+import com.waysnpaths.mygithub.domain.model.Commit
 import com.waysnpaths.mygithub.domain.model.Repository
+import com.waysnpaths.mygithub.domain.repository.GitHubRepository
 import com.waysnpaths.mygithub.dummyMvp.MvpPresenter
-import org.json.JSONException
 
 class MainPresenter(
-        private val networking: Networking,
-        private val reposJsonParser: ReposJsonParser,
-        private val commitJsonParser: CommitJsonParser,
-        private val repositoryMapper: RepositoryDbMapper
+        // todo abstract repositories to use cases with executors (ThreatPool etc)
+        private val liveGitHubRepository: GitHubRepository,
+        private val cacheGitHubRepository: GitHubRepository
 ) : MvpPresenter<MainView>() {
-
     var repositories: List<Repository> = listOf()
 
     override fun onAttachView(view: MainView) {
@@ -26,8 +19,8 @@ class MainPresenter(
 
     private fun getRepositories() {
         displayRepositories(getRepositoriesFromDb())
-        GetStringRequestAsyncTask(networking, ::onRepositoriesJsonReceived, ::onError)
-                .execute("${baseUrl}users/akvus/repos")
+        GetStringRequestAsyncTask({ liveGitHubRepository.getRepositories("akvus") }, ::onRepositoriesJsonReceived, ::onError)
+                .execute()
     }
 
     private fun displayRepositories(repositories: List<Repository>) {
@@ -36,41 +29,39 @@ class MainPresenter(
 
     private fun getRepositoriesFromDb(): List<Repository> {
         // todo this should be done on another thread
-        return repositoryMapper.mapList(SQLite.select().from(RepositoryDbModel::class.java).queryList())
+        return cacheGitHubRepository.getRepositories("akvus")
     }
 
-    private fun onRepositoriesJsonReceived(jsonString: String) {
-        try {
-            repositories = reposJsonParser.parse(jsonString)
+    private fun onRepositoriesJsonReceived(repositories: List<Repository>?) {
+        repositories?.let {
+            this.repositories = repositories
             storeRepositories(repositories)
             displayRepositories(repositories)
             getCommitsData(repositories)
-        } catch (e: JSONException) {
-            onError(e)
         }
     }
 
     private fun storeRepositories(repositories: List<Repository>) {
         for (repository in repositories) {
-            // todo bg thread, abstract save()
-            repositoryMapper.mapBack(repository).save()
+            // todo bg thread
+            cacheGitHubRepository.saveRepository(repository)
         }
     }
 
     private fun getCommitsData(repositories: List<Repository>) {
         for (repository in repositories) {
-            GetStringRequestAsyncTask(networking, {
+            GetStringRequestAsyncTask({ liveGitHubRepository.getCommits("akvus", repository.name) }, {
                 onCommitJsonReceived(it, repository.id)
             }, this::onError)
-                    .execute("${baseUrl}repos/akvus/${repository.name}/commits")
+                    .execute()
         }
     }
 
-    private fun onCommitJsonReceived(jsonString: String, repositoryId: Long) {
+    private fun onCommitJsonReceived(newCommits: List<Commit>?, repositoryId: Long) {
         repositories = repositories.map { repo ->
             repo.copy().apply {
                 commits = if (repo.id == repositoryId) {
-                    commitJsonParser.parse(jsonString)
+                    newCommits ?: listOf()
                 } else {
                     commits.map { it.copy() }
                 }
@@ -86,6 +77,5 @@ class MainPresenter(
 
     companion object {
         private val TAG = MainPresenter.javaClass.simpleName
-        private const val baseUrl = "https://api.github.com/"
     }
 }

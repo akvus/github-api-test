@@ -1,26 +1,25 @@
 package com.waysnpaths.mygithub.ui.main
 
 import android.os.AsyncTask
-import com.waysnpaths.mygithub.data.networking.Networking
 import java.io.IOException
 
-class GetStringRequestAsyncTask(
-        private val networking: Networking,
-        private val onSuccess: (result: String) -> Unit,
+class GetStringRequestAsyncTask<T>(
+        private val onBackground: () -> T,
+        private val onSuccess: (result: T?) -> Unit,
         private val onError: (error: Throwable) -> Unit
-) : AsyncTask<String, Any, String>() {
+) : AsyncTask<String, Any, T>() {
 
-    override fun doInBackground(vararg params: String): String {
+    override fun doInBackground(vararg params: String): T? {
         return try {
             Thread.sleep(500)
-            networking.get(params[0])
+            onBackground()
         } catch (e: IOException) {
             onError(e)
-            "[]"
+            null
         }
     }
 
-    override fun onPostExecute(result: String) {
+    override fun onPostExecute(result: T?) {
         onSuccess(result)
     }
 }

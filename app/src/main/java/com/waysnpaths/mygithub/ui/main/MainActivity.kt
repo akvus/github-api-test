@@ -13,10 +13,8 @@ class MainActivity : MvpActivity<MainPresenter, MainView>(), MainView {
     private var reposAdapter: ReposAdapter? = null
 
     override fun createPresenter() = MainPresenter(
-            DummyDiModule.networking(),
-            DummyDiModule.reposJsonParser(),
-            DummyDiModule.commitsJsonParser(),
-            DummyDiModule.repositoryDbMapper())
+            DummyDiModule.networkingGitHubRepository(),
+            DummyDiModule.dbGitHubRepository())
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
