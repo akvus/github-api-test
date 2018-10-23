@@ -11,13 +11,13 @@ import java.io.IOException
 import java.util.concurrent.Executors
 
 
+// todo abstract repositories to use cases
 class MainPresenter(
-        // todo abstract repositories to use cases with executors (ThreatPool etc)
         private val liveGitHubRepository: GitHubRepository,
         private val cacheGitHubRepository: GitHubRepository
 ) : MvpPresenter<MainView>() {
     private var repositories: List<Repository> = listOf()
-    private val threadPool = Executors.newCachedThreadPool()!!
+    private val threadPool = Executors.newCachedThreadPool()
     private var mainHandler = Handler(Looper.getMainLooper())
 
     override fun onAttachView(view: MainView) {
@@ -25,10 +25,10 @@ class MainPresenter(
     }
 
     private fun getRepositories() {
-        displayRepositories(getRepositoriesFromDb())
+        getRepositoriesFromDb(::displayRepositories)
         threadPool.submit {
             try {
-                val data  = liveGitHubRepository.getRepositories("akvus")
+                val data = liveGitHubRepository.getRepositories("akvus")
                 mainHandler.post {
                     onRepositoriesJsonReceived(data)
                 }
@@ -44,9 +44,13 @@ class MainPresenter(
         view?.setRepositories(repositories.sortedBy { it.name })
     }
 
-    private fun getRepositoriesFromDb(): List<Repository> {
-        // todo this should be done on another thread
-        return cacheGitHubRepository.getRepositories("akvus")
+    private fun getRepositoriesFromDb(onRetrieved: (repositories: List<Repository>) -> Unit) {
+        threadPool.submit {
+            val repositories = cacheGitHubRepository.getRepositories("akvus")
+            mainHandler.post {
+                onRetrieved(repositories)
+            }
+        }
     }
 
     private fun onRepositoriesJsonReceived(repositories: List<Repository>?) {
@@ -60,23 +64,28 @@ class MainPresenter(
 
     private fun storeRepositories(repositories: List<Repository>) {
         for (repository in repositories) {
-            // todo bg thread
-            cacheGitHubRepository.saveRepository(repository)
+            threadPool.submit {
+                cacheGitHubRepository.saveRepository(repository)
+            }
         }
     }
 
     private fun getCommitsData(repositories: List<Repository>) {
         for (repository in repositories) {
-            threadPool.submit {
-                try {
-                    val data  = liveGitHubRepository.getCommits("akvus", repository.name)
-                    mainHandler.post {
-                        onCommitJsonReceived(data, repository.id)
-                    }
-                } catch (e: IOException) {
-                    mainHandler.post {
-                        onError(e)
-                    }
+            getCommitData(repository)
+        }
+    }
+
+    private fun getCommitData(repository: Repository) {
+        threadPool.submit {
+            try {
+                val data = liveGitHubRepository.getCommits("akvus", repository.name)
+                mainHandler.post {
+                    onCommitJsonReceived(data, repository.id)
+                }
+            } catch (e: IOException) {
+                mainHandler.post {
+                    onError(e)
                 }
             }
         }
